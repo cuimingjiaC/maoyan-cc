@@ -7,7 +7,7 @@ const serverConfig = {
     directoryListing: false,
     open: false,
     port: 3001,
-    proxies: [ // 让开发服务器去请求猫眼数据
+    proxies: [ // 让开发服务器去请求猫眼数据    这是依赖web-server模块
         {
             source: '/maoyan', // 暗号
             target: 'http://m.maoyan.com/', // 真正的目标
